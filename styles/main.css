@@ -1,7 +1,7 @@
 .mainCon {
   width: 100vw;
   height: fit-content;
-  min-height: 80vh;
+  min-height: calc(100vh - var(--nav-height));
   position: relative;
   top: 0;
   left: 0;
@@ -20,3 +20,4 @@
   flex-direction: column;
   padding-top: 5vmin;
 }
+
